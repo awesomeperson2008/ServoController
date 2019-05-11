@@ -1,0 +1,14 @@
+import random
+print("Welcome to flash facts")
+c=0
+for i in range(10):
+    y=random.randint(1,12)
+    z=random.randint(1,12)
+    a=y*z
+    b=(int(input(str(y) + '*' + str(z))))
+    if a==b:
+        print("You got it right")
+        c=c+1
+    else:
+        print("Sorry! better luck next time.")
+print("You got " + str(c) + " right")
