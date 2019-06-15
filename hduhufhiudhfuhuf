@@ -1,0 +1,14 @@
+import math
+
+x=("Enter Binary Number")
+y=0
+
+length=len(x)
+
+while x>0:
+    z=length-1
+    powr=pow(2,y)
+    ans=z*pow
+    length = length-1
+    y=y+1
+print(ans)
